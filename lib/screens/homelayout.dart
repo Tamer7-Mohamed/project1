@@ -46,7 +46,9 @@ class _homelayoutState extends State<homelayout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text(
           titles[currentindex]
         ),

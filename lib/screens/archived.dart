@@ -18,6 +18,7 @@ class _ArchivedTasksScreenState extends State<ArchivedTasksScreen> {
         style: TextStyle(
           fontWeight: FontWeight.w900,
           fontSize: 50,
+          color: CupertinoColors.white
         ),
       ),);}
   gettName() async{
